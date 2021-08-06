@@ -1,0 +1,13 @@
+{'cpu_': '256', 'memory_': '512', 'DockerImagePullTime': 11.164000034332275, 'ColdStartTime': 25.299000024795532, 'StoppingTime': 22.891000032424927, 'RunningTime': 0.2649998664855957}
+{'cpu_': '256', 'memory_': '1024', 'DockerImagePullTime': 11.325999975204468, 'ColdStartTime': 26.286999940872192, 'StoppingTime': 23.04800009727478, 'RunningTime': 0.2910001277923584}
+{'cpu_': '256', 'memory_': '2048', 'DockerImagePullTime': 9.888000011444092, 'ColdStartTime': 24.582000017166138, 'StoppingTime': 22.877000093460083, 'RunningTime': 0.2849998474121094}
+{'cpu_': '512', 'memory_': '1024', 'DockerImagePullTime': 10.684000015258789, 'ColdStartTime': 26.21999979019165, 'StoppingTime': 22.98300004005432, 'RunningTime': 0.1530001163482666}
+{'cpu_': '512', 'memory_': '2048', 'DockerImagePullTime': 10.587000131607056, 'ColdStartTime': 26.80999994277954, 'StoppingTime': 22.867000102996826, 'RunningTime': 0.1419999599456787}
+{'cpu_': '512', 'memory_': '3072', 'DockerImagePullTime': 9.711000204086304, 'ColdStartTime': 24.641000032424927, 'StoppingTime': 22.931000232696533, 'RunningTime': 0.16499996185302734}
+{'cpu_': '512', 'memory_': '4096', 'DockerImagePullTime': 10.219000101089478, 'ColdStartTime': 24.01099991798401, 'StoppingTime': 22.76699995994568, 'RunningTime': 0.11400008201599121}
+{'cpu_': '1024', 'memory_': '2048', 'DockerImagePullTime': 15.651000022888184, 'ColdStartTime': 39.07299995422363, 'StoppingTime': 23.069999933242798, 'RunningTime': 0.09400010108947754}
+{'cpu_': '1024', 'memory_': '3072', 'DockerImagePullTime': 15.335999965667725, 'ColdStartTime': 47.47699999809265, 'StoppingTime': 22.788000106811523, 'RunningTime': 0.07799983024597168}
+{'cpu_': '1024', 'memory_': '4096', 'DockerImagePullTime': 9.523000001907349, 'ColdStartTime': 24.299999952316284, 'StoppingTime': 23.098000049591064, 'RunningTime': 0.0690000057220459}
+{'cpu_': '1024', 'memory_': '5120', 'DockerImagePullTime': 9.890999794006348, 'ColdStartTime': 24.515000104904175, 'StoppingTime': 22.882000207901, 'RunningTime': 0.07399988174438477}
+{'cpu_': '1024', 'memory_': '2048', 'DockerImagePullTime': 15.311000108718872, 'ColdStartTime': 46.22699999809265, 'StoppingTime': 33.187000036239624, 'RunningTime': 0.08899998664855957}
+{'cpu_': '1024', 'memory_': '4096', 'DockerImagePullTime': 15.221999883651733, 'ColdStartTime': 39.03999996185303, 'StoppingTime': 22.87000012397766, 'RunningTime': 0.0839998722076416}
