@@ -1,0 +1,94 @@
+{
+    "tasks": [
+        {
+            "attachments": [
+                {
+                    "id": "7cda73d6-d408-4fc7-bd3c-39ffa384cf81",
+                    "type": "ElasticNetworkInterface",
+                    "status": "DELETED",
+                    "details": [
+                        {
+                            "name": "subnetId",
+                            "value": "subnet-b77a07fb"
+                        },
+                        {
+                            "name": "networkInterfaceId",
+                            "value": "eni-0a76044c037f496e2"
+                        },
+                        {
+                            "name": "macAddress",
+                            "value": "0a:e0:c5:e7:26:02"
+                        },
+                        {
+                            "name": "privateDnsName",
+                            "value": "ip-172-31-47-253.us-east-2.compute.internal"
+                        },
+                        {
+                            "name": "privateIPv4Address",
+                            "value": "172.31.47.253"
+                        }
+                    ]
+                }
+            ],
+            "availabilityZone": "us-east-2c",
+            "clusterArn": "arn:aws:ecs:us-east-2:621570172826:cluster/container-test",
+            "connectivity": "CONNECTED",
+            "connectivityAt": "2021-08-17T02:00:35.659000+00:00",
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:us-east-2:621570172826:container/container-test/484c75301bf64e5ba54ce1a79421899b/2578e0d9-2f05-4803-941f-dfec7c24dbba",
+                    "taskArn": "arn:aws:ecs:us-east-2:621570172826:task/container-test/484c75301bf64e5ba54ce1a79421899b",
+                    "name": "random_reader",
+                    "image": "621570172826.dkr.ecr.us-east-1.amazonaws.com/saaf-functions:random_reader",
+                    "imageDigest": "sha256:fa7317e932e4743533c395dc387ebc3d14d6b4b49d357e31f5601cdead1c1c9a",
+                    "runtimeId": "484c75301bf64e5ba54ce1a79421899b-4007005064",
+                    "lastStatus": "STOPPED",
+                    "exitCode": 0,
+                    "networkBindings": [],
+                    "networkInterfaces": [
+                        {
+                            "attachmentId": "7cda73d6-d408-4fc7-bd3c-39ffa384cf81",
+                            "privateIpv4Address": "172.31.47.253"
+                        }
+                    ],
+                    "healthStatus": "UNKNOWN",
+                    "cpu": "0"
+                }
+            ],
+            "cpu": "2048",
+            "createdAt": "2021-08-17T02:00:32.007000+00:00",
+            "desiredStatus": "STOPPED",
+            "enableExecuteCommand": false,
+            "executionStoppedAt": "2021-08-17T02:03:13.491000+00:00",
+            "group": "family:randomReaderTest",
+            "healthStatus": "UNKNOWN",
+            "lastStatus": "STOPPED",
+            "launchType": "FARGATE",
+            "memory": "4096",
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "name": "random_reader"
+                    }
+                ],
+                "inferenceAcceleratorOverrides": []
+            },
+            "platformVersion": "1.4.0",
+            "pullStartedAt": "2021-08-17T02:00:45.251000+00:00",
+            "pullStoppedAt": "2021-08-17T02:03:11.131000+00:00",
+            "startedAt": "2021-08-17T02:03:13.481000+00:00",
+            "stopCode": "EssentialContainerExited",
+            "stoppedAt": "2021-08-17T02:03:36.222000+00:00",
+            "stoppedReason": "Essential container in task exited",
+            "stoppingAt": "2021-08-17T02:03:23.517000+00:00",
+            "tags": [],
+            "taskArn": "arn:aws:ecs:us-east-2:621570172826:task/container-test/484c75301bf64e5ba54ce1a79421899b",
+            "taskDefinitionArn": "arn:aws:ecs:us-east-2:621570172826:task-definition/randomReaderTest:13",
+            "version": 5,
+            "ephemeralStorage": {
+                "sizeInGiB": 20
+            }
+        }
+    ],
+    "failures": []
+}

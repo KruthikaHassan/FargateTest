@@ -1,0 +1,94 @@
+{
+    "tasks": [
+        {
+            "attachments": [
+                {
+                    "id": "ed023a9c-ad54-49fb-8d7b-642471a68af0",
+                    "type": "ElasticNetworkInterface",
+                    "status": "DELETED",
+                    "details": [
+                        {
+                            "name": "subnetId",
+                            "value": "subnet-b77a07fb"
+                        },
+                        {
+                            "name": "networkInterfaceId",
+                            "value": "eni-056a3f151446b503d"
+                        },
+                        {
+                            "name": "macAddress",
+                            "value": "0a:e6:46:c8:df:76"
+                        },
+                        {
+                            "name": "privateDnsName",
+                            "value": "ip-172-31-34-22.us-east-2.compute.internal"
+                        },
+                        {
+                            "name": "privateIPv4Address",
+                            "value": "172.31.34.22"
+                        }
+                    ]
+                }
+            ],
+            "availabilityZone": "us-east-2c",
+            "clusterArn": "arn:aws:ecs:us-east-2:621570172826:cluster/container-test",
+            "connectivity": "CONNECTED",
+            "connectivityAt": "2021-08-16T21:17:00.189000+00:00",
+            "containers": [
+                {
+                    "containerArn": "arn:aws:ecs:us-east-2:621570172826:container/container-test/66619fb7f71f4ccc8a379a8380cb92a6/593f41a9-bff4-46c5-8da3-6d79c5af8250",
+                    "taskArn": "arn:aws:ecs:us-east-2:621570172826:task/container-test/66619fb7f71f4ccc8a379a8380cb92a6",
+                    "name": "random_reader",
+                    "image": "621570172826.dkr.ecr.us-east-1.amazonaws.com/saaf-functions:random_reader",
+                    "imageDigest": "sha256:fa7317e932e4743533c395dc387ebc3d14d6b4b49d357e31f5601cdead1c1c9a",
+                    "runtimeId": "66619fb7f71f4ccc8a379a8380cb92a6-4007005064",
+                    "lastStatus": "STOPPED",
+                    "exitCode": 0,
+                    "networkBindings": [],
+                    "networkInterfaces": [
+                        {
+                            "attachmentId": "ed023a9c-ad54-49fb-8d7b-642471a68af0",
+                            "privateIpv4Address": "172.31.34.22"
+                        }
+                    ],
+                    "healthStatus": "UNKNOWN",
+                    "cpu": "0"
+                }
+            ],
+            "cpu": "256",
+            "createdAt": "2021-08-16T21:16:56.458000+00:00",
+            "desiredStatus": "STOPPED",
+            "enableExecuteCommand": false,
+            "executionStoppedAt": "2021-08-16T21:20:37.654000+00:00",
+            "group": "family:randomReaderTest",
+            "healthStatus": "UNKNOWN",
+            "lastStatus": "STOPPED",
+            "launchType": "FARGATE",
+            "memory": "2048",
+            "overrides": {
+                "containerOverrides": [
+                    {
+                        "name": "random_reader"
+                    }
+                ],
+                "inferenceAcceleratorOverrides": []
+            },
+            "platformVersion": "1.4.0",
+            "pullStartedAt": "2021-08-16T21:17:09.265000+00:00",
+            "pullStoppedAt": "2021-08-16T21:20:36.832000+00:00",
+            "startedAt": "2021-08-16T21:20:37.545000+00:00",
+            "stopCode": "EssentialContainerExited",
+            "stoppedAt": "2021-08-16T21:21:00.710000+00:00",
+            "stoppedReason": "Essential container in task exited",
+            "stoppingAt": "2021-08-16T21:20:47.690000+00:00",
+            "tags": [],
+            "taskArn": "arn:aws:ecs:us-east-2:621570172826:task/container-test/66619fb7f71f4ccc8a379a8380cb92a6",
+            "taskDefinitionArn": "arn:aws:ecs:us-east-2:621570172826:task-definition/randomReaderTest:6",
+            "version": 5,
+            "ephemeralStorage": {
+                "sizeInGiB": 20
+            }
+        }
+    ],
+    "failures": []
+}
